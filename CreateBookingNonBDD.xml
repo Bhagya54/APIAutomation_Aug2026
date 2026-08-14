@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Create Booking_NonBDD Style ">
+        <classes>
+            <class name="org.example.Ex003_CRUD_NonBDDStyle.TC011_CreateBooking_NonBDDStyle">
+
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
