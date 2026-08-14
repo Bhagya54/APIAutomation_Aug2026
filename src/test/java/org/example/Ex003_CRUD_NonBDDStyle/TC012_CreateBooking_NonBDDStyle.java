@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class TC011_CreateBooking_NonBDDStyle {
+public class TC012_CreateBooking_NonBDDStyle {
 /*
 https://restful-booker.herokuapp.com/booking
 -H 'Content-Type: application/json' \

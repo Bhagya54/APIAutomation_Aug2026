@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class TC010_CreateToken_NonBDDStyle {
+public class TC011_CreateToken_NonBDDStyle {
     //https://restful-booker.herokuapp.com/auth
     //'Content-Type: application/json'
     /*

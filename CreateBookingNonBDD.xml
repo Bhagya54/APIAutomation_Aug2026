@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Create Booking_NonBDD Style ">
         <classes>
-            <class name="org.example.Ex003_CRUD_NonBDDStyle.TC011_CreateBooking_NonBDDStyle">
+            <class name="org.example.Ex003_CRUD_NonBDDStyle.TC012_CreateBooking_NonBDDStyle">
 
             </class>
 

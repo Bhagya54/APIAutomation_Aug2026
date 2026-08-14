@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class TC007_UpdateBooking {
+public class TC009_UpdateBooking {
     //https://restful-booker.herokuapp.com/booking/:id
     //'Content-Type: application/json'
     //'Cookie: token=abc123'

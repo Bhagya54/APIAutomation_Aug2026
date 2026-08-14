@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class TC009_DeleteBooking {
+public class TC010_DeleteBooking {
 
     //https://restful-booker.herokuapp.com/booking/1
     //Content-Type: application/json
