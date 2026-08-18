@@ -62,8 +62,6 @@ https://restful-booker.herokuapp.com/booking
         vRes=response.then();
         vRes.log().all();
         vRes.statusCode(200);
-
-
     }
     @Description("Create Booking - Negative - Wrong FirstName Body")
     @Test(priority = 200)
