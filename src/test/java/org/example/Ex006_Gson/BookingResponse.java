@@ -1,10 +1,6 @@
 package org.example.Ex006_Gson;
-
-
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
-
 public class BookingResponse {
 
     @SerializedName("bookingid")

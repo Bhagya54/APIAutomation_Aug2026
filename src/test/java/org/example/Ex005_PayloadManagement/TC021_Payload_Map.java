@@ -7,10 +7,8 @@ import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
@@ -20,13 +18,14 @@ public class TC021_Payload_Map {
     Response response;
     ValidatableResponse vRes;
     Map<String,Object> payload;
-
+    Map<String,Object> bookingDates;
     @BeforeTest
     public void setUp(){
         reqSpec = given();
         reqSpec.baseUri("https://restful-booker.herokuapp.com");
         reqSpec.basePath("/booking");
         payload=new LinkedHashMap<>();
+        bookingDates=new LinkedHashMap<>();
     }
 
 
@@ -42,7 +41,6 @@ public class TC021_Payload_Map {
         payload.put("totalprice",345);
         payload.put("depositpaid",true);
 
-        Map<String,Object> bookingDates=new LinkedHashMap<>();
         bookingDates.put("checkin","2018-01-01");
         bookingDates.put("checkout","2019-01-01");
 

@@ -6,9 +6,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given;
-
 public class TC020_Payload_String {
 
     RequestSpecification reqSpec;
